@@ -1,0 +1,222 @@
+html{
+    font-family: 'Lato';
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px 50px;
+    position: absolute;
+    right: 5%;
+}
+
+.logo-header{
+    height: 50px;
+}  
+
+.first-nav li{
+    display: inline;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.first-nav a{
+    text-decoration: none;
+    color:#606060;
+    font-size: 20px;
+}
+
+.last-element{
+    background-color:#43A9F4;
+    border-radius: 50%;
+    padding: 15px 10px;
+    box-shadow: 3px 3px 20px 0px #43A9F4;
+}
+
+.last-element a{
+    color: white;
+}
+
+  
+.first-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.first-div::after {
+    content: "";
+    background: url("./images/hero-certificates.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+
+
+.diploma-div{
+    margin-top: 6%;
+}
+
+.paragraph-div{
+    width: 700px;
+    background-color:#29384B;
+    color: white;
+    padding: 10px 25px 30px 25px;
+    border-radius: 15px;
+    margin-top: 20%;
+    margin-right: 70px;
+}
+
+.under-paragraph-div{
+    font-style: oblique;
+    color: white;
+}
+
+.second-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #7C8289;
+    margin-top: 5%;
+}
+
+.second-div h2{
+    color: #464D56;
+}
+
+.two-paragraphs-div{
+    width: 85%;
+    font-size: 18px;
+    background-color: #F4F5F7;
+    padding: 5px 20px;
+}
+
+.third-div{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.third-div::after {
+    content: "";
+    background-image: url("./images/sign-up-prompt-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: brightness(0.5);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    border-radius: 10px;   
+  }
+
+.third-div h2{
+    color: #F8FDFE;
+    font-size: 30px;
+}
+
+.third-div p{
+    color: #F8FDFE;
+    font-size: 18px;
+    width: 60%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.apply-btn{
+    color: #83BBE6;
+    padding: 10px 40px; 
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: white;
+    border: none;
+}
+
+.curriculum-btn{
+    color: #EBECEF;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #EBECEF;
+    background-color: transparent;
+}
+
+.buttons{
+    display: flex;
+}
+
+.separate-btn-line{
+    margin: 0 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.logo{
+    height: 50px;
+    margin: 0 20px 0 50px;
+}
+
+.logo-paragraph-div{
+    display: flex;
+}
+
+.second-nav li{
+    display: inline;
+    margin-left: 15px;
+}
+
+.second-nav a{
+    text-decoration: none;
+    color: #85888F;
+}
+
+.second-nav i{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#last-element{
+    margin-right: 50px;
+}
+
+
+
+
+

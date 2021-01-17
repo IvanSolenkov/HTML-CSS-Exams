@@ -1,0 +1,14 @@
+@media screen and (max-width:884px){
+    .newsletter-boxes{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main header{
+        padding: 0;
+    }
+
+    .newsletter-bottom{
+        display: flex;
+    }
+}

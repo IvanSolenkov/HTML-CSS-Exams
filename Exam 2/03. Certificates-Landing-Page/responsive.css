@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .paragraph-div{
+        width: 70%;
+        margin-top: 55%;
+    }
+}
